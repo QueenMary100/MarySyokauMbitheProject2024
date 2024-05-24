@@ -35,8 +35,8 @@ header h1{
 }
 svg{
   position: absolute;
-  left: 240px;
-  top: 16.5%;  
+  left: 250px;
+  top: 13.4%;  
 }
 
 .signIn {
@@ -188,7 +188,6 @@ footer {
     background-color: white;
   }
 }
-
 .img_sect1{
   display: flex;
   flex-direction: row;
@@ -201,7 +200,7 @@ footer {
   width: 9.0rem;
   transition: 800ms ease-in-out;
   margin: 10px;
-  border-radius: 20px solid gold  ;
+  
 }
 
 @media (max-width: 991px) {
@@ -234,12 +233,16 @@ footer {
 @media (min-width: 992px) {
   .img_sect1 img {
     height: 11rem;
-    width: 11rem;
+    width: 18%;
+    align-items: flex-start;
     border: 2px solid gold;
   } 
 
 }
 @media (max-width: 576px) {
+  footer{
+    width: 100%;
+  }
   .search-bar {
     display: none;
   }
@@ -315,17 +318,7 @@ footer {
       margin-left: 0.5rem;
     }
   }
-  /* .story-section {
-    .story-section-div {
-      padding: 0px 0px;
-    }
-    .story-paragraph {
-      padding: 20px 10px;
-    }
-    .story-img {
-      display: none;
-    }
-  } */
+  
 }
 @media (max-width: 767px){
   
@@ -344,18 +337,7 @@ footer {
     left: calc(5%);
     padding-top: 2rem;
   }
-  /* .story-section {
-    .story-section-div {
-      padding: 0px 0px;
-    }
-    .story-paragraph {
-      padding: 20px 10px;
-    }
-    .story-img {
-      width: 500px;
-      display: none;
-    }
-  } */
+  
 }
 @media (min-width: 577px) and (max-width: 767px) {
   .card{
