@@ -12,14 +12,16 @@
     <div class="container-fluid bg-secondary">    
       <header>
         <h1 class="text-center page-title">SOMASANA LIBRARY SYSTEM</h1>
-        <hr class="col-11 justify-content-between text-center d-md-flex mx-auto" style="background-color: grey;">
+        <hr class="col-md-11 justify-content-between text-center d-md-flex mx-auto" style="background-color: grey;">
         <div class="search-bar  d-sm-none d-md-flex justify-content-between col-11 mx-auto">
           <div class="searchbar d-flex">
-            <input type="text" class="form-control" placeholder="Search"/>
-            <svg class="d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" width="20" height="35" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-            </svg>            
-          </div>
+            <input type="text" class="form-control" placeholder="Search" id="searchInput">
+            <button type="button" class="btn btn-link p-0" id="searchButton">
+              <svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" width="20" height="35" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+            </button>
+          </div>          
           <div class="signIn  d-flex align-items-right ">
             <button href="#" class="sign btn btn-primary ps-1 ">Sign In</button>
             <article class="round-img d-inline ">
@@ -27,7 +29,7 @@
             </article>
           </div>
         </div>
-        <hr class="col-lg-11 justify-content-between text-center  d-lg-flex mx-auto d-xs-none d-sm-none" style="background-color: gold;">
+        <hr class=" d-none  d-xs-none d-sm-none col-lg-11 justify-content-between text-center  d-lg-flex mx-auto" style="background-color: gold;">
         
         <nav class="cNavbar d-sm-none d-md-block col-lg-11 col-md-11 mx-md-auto">
           <ul class="mx-auto col-lg-7 d-flex justify-content-between ps-2 pe-2">
@@ -48,7 +50,8 @@
             </li>         
           </ul>
         </nav>
-        <hr class=" d-xs-none d-sm-none col-lg-11 justify-content-between text-center d-lg-flex mx-auto " style="background-color: gold;">
+        <hr class=" d-none  d-xs-none d-sm-none col-lg-11 justify-content-between text-center  d-lg-flex mx-auto" style="background-color: gold;">
+        
         <!-- only in small devices -->
         <div class="col-11 mx-auto div-sm-nav" style="position: relative;margin: 2rem 0rem;">
           <div class="d-flex justify-content-between col-12">

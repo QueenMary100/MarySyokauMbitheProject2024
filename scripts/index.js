@@ -7,4 +7,13 @@ window.addEventListener('scroll', function() {
     } else {
       stickyElement.classList.remove('fixed-top');
     }
-})
+});
+const searchInput = document.getElementById('searchInput');
+  const searchButton = document.getElementById('searchButton');
+
+  searchButton.addEventListener('click', () => {
+    const searchTerm = searchInput.value;
+    if (searchTerm) {
+      alert(`You searched for: ${searchTerm}`);
+    }
+  });

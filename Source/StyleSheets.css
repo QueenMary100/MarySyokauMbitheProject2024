@@ -33,12 +33,51 @@ header h1{
 .cNavbar {
   margin-top: 1.5rem;
 }
-svg{
-  position: absolute;
-  left: 250px;
-  top: 13.4%;  
+.searchbar {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  
 }
 
+.searchbar input[type="text"] {
+  width: 100%;
+  border-right: none;
+  border-radius: 20px;
+}
+
+.searchbar button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  border: none;
+  padding: 0;
+  cursor: pointer; 
+  transition: all 0.2s ease-in-out;
+}
+
+.searchbar button:hover {
+  background-color: black;
+}
+
+.searchbar button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .searchbar input[type="text"] {
+    padding-right: 50px;
+  }
+
+  .searchbar button {
+    display: none;
+  }
+}
 .signIn {
   button.sign {
     height: 40px;
