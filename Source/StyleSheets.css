@@ -68,15 +68,27 @@ header h1{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.carousel-control-prev-icon{
+  color: black;
+  background-color: black;
+}
+.carousel-control-next-icon{
+  background-color: black;
+}
 
 @media (max-width: 767px) {
   .searchbar input[type="text"] {
     padding-right: 50px;
   }
-
-  .searchbar button {
-    display: none;
+  .searchbar button svg{
+    width: 20px;
   }
+  .searchbar {
+    position: relative;
+    width: 100%;
+    max-width: 200px;    
+  }
+  
 }
 .signIn {
   button.sign {
