@@ -110,7 +110,7 @@ header h1{
 .home-section, .home2-section {
   position: relative;
   height: 35rem;
-  margin-bottom: 4rem;
+  margin-bottom: 0px;
 }
 .home-section:first-child {
   position: relative;
@@ -265,12 +265,12 @@ footer {
   }
   /*cards in small*/
   .carl-item1 img{ 
-    height: 200px;
+    height: 500px;
     border: 2px solid gold;
     width: auto;
   }
   .carl-item2 img{
-    height: 450px;
+    height:500px;
     border: 2px solid gold;
     width: auto;
   }  
@@ -338,7 +338,7 @@ footer {
   }
   .home-section, .home2-section {
     height: 35rem;
-    margin-bottom: 5rem;
+    margin-bottom: 0px;
     
   }
   .home-section img, .home2-section img {
